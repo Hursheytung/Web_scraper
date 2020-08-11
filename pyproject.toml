@@ -1,0 +1,16 @@
+[build-system]
+build-backend = "poetry.masonry.api"
+requires = ["poetry>=0.12"]
+
+[tool]
+[tool.poetry]
+authors = ["Your Name <you@example.com>"]
+description = ""
+name = "webscraper"
+version = "0.1.0"
+[tool.poetry.dependencies]
+beautifulsoup4 = "^4.8"
+python = "^3.8"
+requests = "^2.23"
+bs4 = "^0.0.1"
+[tool.poetry.dev-dependencies]
